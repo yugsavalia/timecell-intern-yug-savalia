@@ -23,8 +23,6 @@ if not API_KEY:
         "ERROR: Please set the GEMINI_API_KEY environment variable.\n"
     )
 
-print(os.getenv("GEMINI_API_KEY"))
-
 client = genai.Client(api_key=API_KEY)
 MODEL_NAME = "gemini-2.5-flash"
 
