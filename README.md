@@ -229,12 +229,3 @@ For runtime LLM functionality, the code uses Google Gemini through the `google-g
 ## Hardest Part
 
 The hardest part was making the LLM output useful but still reliable. A plain advisor prompt gives nice prose, but it is hard to validate. The final approach evolved from normal prompting, to reasoning steps, to few-shot examples, and finally to structured JSON with separate parsing functions, a critique pass, and deterministic redistribution checks so the AI output is both readable and auditable.
-
-## Submission Checklist
-
-- Public GitHub repo named in the required format: `timecell-intern-<your-name>`.
-- README explaining the approach for each task.
-- AI usage disclosed.
-- LLM API choice and prompt approach documented.
-- 3-5 minute Loom or screen recording walkthrough.
-- Email submission includes repo link, video link, and one paragraph on the hardest part.
